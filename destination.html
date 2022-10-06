@@ -1,0 +1,191 @@
+<!dOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tour</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <style>
+      /*@media only screen and (max-width:600px)  {
+          body{
+              background-image:url('img/background-destination-mobile.jpg') ;
+          }
+      }
+      @media only screen and (min-width:600px)  {
+          body{
+              background-image:url('img/background-destination-mobile.jpg') ;
+          }
+      }
+      @media only screen and (min-width:768px)  {
+          body{
+              background-image:url('img/background-destination-tablet.jpg') ;
+          }
+      }
+      @media only screen and (min-width:992px)  {
+          body{
+              background-image:url('img/background-destination-desktop.jpg') ;
+          }
+      }*/
+
+  </style>
+</head>
+<body style="background-image:url('img/background-destination-desktop.jpg') ;">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top pt-3">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <img src="img/logo.svg" alt="logo" class="offcanvas-title img-fluid" id="offcanvasDarkNavbarLabel"></img>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="navbar-nav justify-content-end flex-grow-1 ps-lg-5 pe-lg-5 ms-lg-5">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html"><strong>00</strong> HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="destination.html"><strong>01</strong> DESTINATION</a>
+                </li>
+                <li class="nav-item">
+                  <a href="crew.html" class="nav-link"><strong>02</strong> CREW</a>
+                </li>
+                <li class="nav-item">
+                  <a href="tech.html" class="nav-link"><strong>03</strong> TECHNOLOGY</a>
+                </li>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!--MAIN-->
+    <!--tab-nav-->
+    <section class="mt-5 pt-5">
+      <div class="container">
+          <h1 class="text-light pt-5 fw-lighter ">01 PICK YOUR DESTINATION</h1>
+          <nav>
+            <div class=" nav nav-tabs border-0 justify-content-end pe-lg-5 me-lg-5" id="nav-tab" role="tablist">
+              <button class="nav-link active btn-sm bg-transparent text-light border-0" id="nav-moon-tab" data-bs-toggle="tab" data-bs-target="#nav-moon" type="button" role="tab" aria-controls="nav-moon" aria-selected="true" >MOON</button>
+
+              <button class="nav-link  btn-sm border-bottom bg-transparent text-light" id="nav-mars-tab" data-bs-toggle="tab" data-bs-target="#nav-mars" type="button" role="tab" aria-controls="nav-mars" aria-selected="false" >MARS</button>
+
+              <button class="nav-link btn-sm bg-transparent text-light" id="nav-europa-tab" data-bs-toggle="tab" data-bs-target="#nav-europa" type="button" role="tab" aria-controls="nav-europa" aria-selected="false" >EUROPA</button>
+
+              <button class="nav-link btn-sm border-bottom bg-transparent text-light" id="nav-titan-tab" data-bs-toggle="tab" data-bs-target="#nav-titan" type="button" role="tab" aria-controls="nav-titan" aria-selected="false" >TITAN</button>
+            </div>
+          </nav>
+          <!--tab-content-->
+          <div class="tab-content" id="nav-tabContent">
+             <div class="tab-pane fade show active" id="nav-moon" role="tabpanel" aria-labelledby="nav-moon-tab">
+              <div class="row pb-5">
+                <div class="col-lg-5">
+                  <img src="img/image-moon.webp" alt="moon" class="img-fluid pt-4 mt-md-5 ps-5 ps-md-0" style="width:70% ;">
+                </div>
+                <div class="col-lg-7 mt-5 pt-md-5">
+                   <h1 class="text-light display-3">MOON</h1>
+                   <P class="text-light fw-light">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</P>
+                   <br>
+                   <br>
+                   <hr>
+                   <div class="d-flex">
+                    <div class="col-6">
+                      <h4 class="text-light">AVG DISTANCE</h4>
+                      <p class="text-light display-6">384,400 KM</p>
+                     </div>
+                     <div class="col-6 float-end">
+                      <h4 class="text-light">EST. TRAVEL TIME</h4>
+                      <p class="text-light display-6">3 DAYS.</p>
+                     </div>
+                   </div>
+                </div>
+              </div>
+             </div>
+
+             <div class="tab-pane fade show" id="nav-mars" role="tabpanel" aria-labelledby="nav-mars-tab">
+              <div class="row pb-5">
+                <div class="col-lg-5">
+                  <img src="img/image-mars.webp" alt="moon" class="img-fluid pt-4 mt-md-5 ps-5 ps-md-0" style="width:70% ;">
+                </div>
+                <div class="col-lg-7 mt-5 pt-md-5">
+                   <h1 class="text-light display-3">MARS</h1>
+                   <P class="text-light fw-light">Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest! </P>
+                   <br>
+                   <br>
+                   <hr>
+                   <div class="d-flex">
+                    <div class="col-6">
+                      <h4 class="text-light">AVG DISTANCE</h4>
+                      <p class="text-light display-6">225 MIL. KM</p>
+                     </div>
+                     <div class="col-6 float-end">
+                      <h4 class="text-light">EST. TRAVEL TIME</h4>
+                      <p class="text-light display-6">9 MONTHS.</p>
+                     </div>
+                   </div>
+                </div>
+              </div>
+             </div>
+             <div class="tab-pane fade show" id="nav-europa" role="tabpanel" aria-labelledby="nav-europa-tab">
+              <div class="row pb-5">
+                <div class="col-lg-5">
+                  <img src="img/image-europa.png" alt="moon" class="img-fluid pt-4 mt-md-5 ps-5 ps-md-0" style="width:70% ;">
+                </div>
+                <div class="col-lg-7 mt-5 pt-md-5">
+                   <h1 class="text-light display-3">EUROPA</h1>
+                   <P class="text-light fw-light">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin. </P>
+                   <br>
+                   <br>
+                   <hr>
+                   <div class="d-flex">
+                    <div class="col-6">
+                      <h4 class="text-light">AVG DISTANCE</h4>
+                      <p class="text-light display-6">625 MIL. KM</p>
+                     </div>
+                     <div class="col-6 float-end">
+                      <h4 class="text-light">EST. TRAVEL TIME</h4>
+                      <p class="text-light display-6">3 YEARS.</p>
+                     </div>
+                   </div>
+                </div>
+              </div>
+             </div>
+             <div class="tab-pane fade show" id="nav-titan" role="tabpanel" aria-labelledby="nav-titan-tab">
+              <div class="row pb-5">
+                <div class="col-lg-5">
+                  <img src="img/image-titan.png" alt="moon" class="img-fluid pt-4 mt-md-5 ps-5 ps-md-0" style="width:70% ;">
+                </div>
+                <div class="col-lg-7 mt-5 pt-md-5">
+                   <h1 class="text-light display-3">TITAN</h1>
+                   <P class="text-light fw-light">The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</P>
+                   <br>
+                   <br>
+                   <hr>
+                   <div class="d-flex">
+                    <div class="col-6">
+                      <h4 class="text-light">AVG DISTANCE</h4>
+                      <p class="text-light display-6">1.6 BIL. KM</p>
+                     </div>
+                     <div class="col-6 float-end">
+                      <h4 class="text-light">EST. TRAVEL TIME</h4>
+                      <p class="text-light display-6">7 YEARS.</p>
+                     </div>
+                   </div>
+                </div>
+              </div>
+             </div>
+          </div>
+      </div>
+    </section>
+ 
+
+
+
+
+
+ <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
